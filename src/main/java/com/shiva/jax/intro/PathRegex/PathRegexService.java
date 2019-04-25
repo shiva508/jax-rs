@@ -12,7 +12,7 @@ public class PathRegexService {
 		return regex;
 	}
 	@GET
-	@Path("{regex:[a-z]\\d{2,3}")
+	@Path("{regex:[a-z]\\d{2,3}}")
 	public String getRegex2(@PathParam("regex")String regex) {
 		return regex;	
 	}
