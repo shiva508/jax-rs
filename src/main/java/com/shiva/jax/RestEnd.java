@@ -18,4 +18,5 @@ public class RestEnd extends Application {
 	 * @PathParam : This annotation is used to extract the value of a URI template
 	 * variables.
 	 */
+	/* @QueryParam is used to handle query parameters. */
 }
